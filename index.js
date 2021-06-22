@@ -90,7 +90,7 @@ Using the reviews array above do the following: (no function needed)
 
 reviews.unshift({name: 'Michael', rating: 5, feedback: 'Food was great. Service was efficient.'});
 
-console.log('task 4', reviews);
+console.log('task 4', reviews); 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Reyna's feedback is missing! Use what you know to do the following: (no function needed) 
@@ -98,9 +98,9 @@ Reyna's feedback is missing! Use what you know to do the following: (no function
   2. log the reviews array to the console to check your work
 */
 
+reviews[7].feedback = 'this place is chill with really cool people, great for getting work done on weekdays';
 
-
-
+console.log('task 5', reviews);
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Write a function to return a review based on the index of the review in the array.
